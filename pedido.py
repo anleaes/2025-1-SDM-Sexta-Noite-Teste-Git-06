@@ -6,3 +6,7 @@ class Pedido:
         self._status = status
         self.cliente = cliente
 
+    def _str_ (self):
+                return f"{self._preco_total}: {self._status} - {self.cliente}"
+        
+
